@@ -1,0 +1,140 @@
+.main
+{
+width: 100%;
+
+}
+
+.logo
+{
+    text-align: center;
+}
+.logo img
+{
+    width: 80px;
+    
+}
+.cname h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    background-color: aliceblue;
+    padding: 10px 0px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav
+{
+    text-align: center;
+}
+
+
+.nav ul 
+{
+    list-style: none;
+    background-color: blueviolet;
+}
+.nav ul li
+{
+   
+    color: whitesmoke;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+ 
+}
+
+.nav ul li a
+{
+
+    color: whitesmoke;
+    
+    display:inline-block;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+}
+
+.nav ul li a:hover
+{
+
+    color:  blueviolet;
+    background-color:  whitesmoke;;
+   
+}
+
+.cover
+{
+    width: 100%;
+    height: 400px;
+    
+    background-image:url("/img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gal{
+    width: 100%;
+    text-align: center;
+}
+
+.gal img
+{
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px gray;
+
+}
+
+.content .c1 h3
+{
+    text-align: center;
+    background-color: rgb(133, 128, 128);
+    padding: 5px 0px;
+    text-transform: uppercase;
+
+}
+
+.content .c1 p
+{
+    text-align:justify;
+     padding: 5px 20px;
+     line-height: 1.5em;
+ 
+
+}
+
+.footer
+{
+    height: 100px;
+    background-color:  blueviolet;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.footer p
+{
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+.footer .social
+{width: 100%;
+background-color: rgb(207, 204, 204);
+
+
+}
+
+.footer .social img 
+{
+    width: 50px;
+background-color: rgb(161, 158, 158);
+border: 1px solid white;
+}
+
